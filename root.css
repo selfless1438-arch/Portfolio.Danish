@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+:root {
+    --brand-color: #FF9143;
+    --primary-color: #1A1A1A;
+    --secondary-color: #262A2C;
+    --tertiary-color: #696969;
+    --color-white: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+body main {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
