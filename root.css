@@ -121,3 +121,114 @@ nav .nav-cont .nav-menu li.contact a {
     border-radius: 100px;
     color: var(--color-white);
 }
+
+section,
+footer {
+    padding: 0 20px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: var(--accent-color);
+}
+
+footer .footer-cont {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+footer .footer-cont .mail {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+footer .footer-cont .mail .title {
+    font-size: 18px;
+    color: var(--brand-color);
+    font-family: var(--font-head);
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+footer .footer-cont .mail .email-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-cont .mail .email-link a {
+    font-size: 40px;
+    color: var(--color-white);
+    font-family: var(--font-head);
+    text-decoration: none;
+    position: relative;
+}
+
+footer .footer-cont .mail .email-link a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-white);
+}
+
+footer .footer-cont .grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+footer .footer-cont .grids .logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-cont .grids .logo img {
+    height: 100px;
+    width: auto;
+}
+
+footer .footer-cont .grids ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .footer-cont .grids ul li a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer .footer-cont .grids ul li i {
+    color: var(--tertiary-color);
+    font-size: 24px;
+}
+
+footer .footer-cont .copyrights {
+    padding: 20px 0;
+    border-top: 2px solid var(--tertiary-color);
+}
+
+footer .footer-cont .copyrights p {
+    font-size: 24px;
+    font-family: var(--font-head);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

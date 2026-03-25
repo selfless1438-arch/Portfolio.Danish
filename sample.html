@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+        }
+
+        .projects {
+            position: relative;
+        }
+
+        .glow-vector {
+            border-radius: 60% 60% 100% 100%;
+            width: 400px;
+            height:200px;
+            left: 100px;
+            position: absolute;
+            top: 100px;
+
+            background:
+                radial-gradient(ellipse, rgba(255, 255, 255, 0.35), transparent 70%),
+                radial-gradient(ellipse, rgba(0, 150, 255, 0.08), transparent 70%);
+            
+            filter: blur(50px);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="projects">
+
+        <div class="glow-vector"></div>
+
+        <h2>Other Projects</h2>
+
+    </section>
+
+</body>
+
+</html>
