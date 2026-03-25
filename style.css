@@ -1,0 +1,45 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.hero .hero-cont {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.hero .hero-cont h1 {
+    font-size: 48px;
+    color: var(--color-white);
+    font-family: var(--font-head);
+}
+
+.hero .hero-cont .vector {
+    position: absolute;
+    width: 500px;
+    border-radius: 85% 48% 75% 67%;
+    height: 200px;
+    background: radial-gradient(circle at center, rgba(184, 165, 165, 0.5), transparent 90%);
+    backdrop-filter: blur(10px);
+    fill: blur(100px);
+}
+
+.hero .hero-cont img {
+    position: absolute;
+    right: 12vw;
+    top: 4vw;
+    width: 40vw;
+    height: auto;
+    transform: translate(50%, -50%);
+    display: none;
+}
