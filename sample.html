@@ -3,41 +3,72 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hero Section</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
         body {
-            background-color: #1a1a1a;
+            background: #0d0d0d;
         }
 
-        .projects {
-            position: relative;
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15), transparent 60%),
+                linear-gradient(135deg, #0d0d0d, #1a1a1a);
         }
 
-        .glow-vector {
-            border-radius: 60% 60% 100% 100%;
-            width: 400px;
-            height:200px;
-            left: 100px;
-            position: absolute;
-            top: 100px;
+        /* Content */
+        .content {
+            text-align: center;
+            color: white;
+        }
 
-            background:
-                radial-gradient(ellipse, rgba(255, 255, 255, 0.35), transparent 70%),
-                radial-gradient(ellipse, rgba(0, 150, 255, 0.08), transparent 70%);
-            
-            filter: blur(50px);
+        /* Heading */
+        .content h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 20px;
+            color: #f5f5f5;
+        }
+
+        /* Button */
+        .cta-btn {
+            background: #ff8c00;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 25px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        /* Button Hover */
+        .cta-btn:hover {
+            background: #ffa733;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
         }
     </style>
 </head>
 
 <body>
-    <section class="projects">
 
-        <div class="glow-vector"></div>
-
-        <h2>Other Projects</h2>
-
+    <section class="hero">
+        <div class="content">
+            <h1>Adaptive Logo Design<br>for Your Brand</h1>
+            <button class="cta-btn">Explore More →</button>
+        </div>
     </section>
 
 </body>

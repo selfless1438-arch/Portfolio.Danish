@@ -24,13 +24,13 @@
     font-family: var(--font-head);
 }
 
-.hero .hero-cont .vector {
+.vector {
     position: absolute;
+    display: none;
     width: 500px;
     border-radius: 85% 48% 75% 67%;
     height: 200px;
-    background: radial-gradient(circle at center, rgba(184, 165, 165, 0.5), transparent 90%);
-    backdrop-filter: blur(10px);
+    background: radial-gradient(circle at center, rgba(184, 165, 165, 0.5), transparent 70%);
     fill: blur(100px);
 }
 
