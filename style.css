@@ -43,3 +43,44 @@
     transform: translate(50%, -50%);
     display: none;
 }
+
+/* about section  */
+
+.about .cont {
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.about .cont .content {
+    padding: 30px 0;
+}
+
+.about .cont .content h2 {
+    font-size: 56px;
+    font-family: var(--font-head);
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.about .cont .content .desc {
+    width: 90%;
+    color: var(--desc-color);
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.about .cont .img-part {
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about .cont .img-part img {
+    border-radius: 20px;
+    width: 80%;
+    height: 90%;
+}
